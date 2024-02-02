@@ -27,7 +27,7 @@ module.exports = {
       // => max-width: 768px { ... }
       
       'sm': {'max': '564px'},
-      // => max-width: 54px { ... }
+      // => max-width: 564px { ... }
       },
   },
   plugins: [],
