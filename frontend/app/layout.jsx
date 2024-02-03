@@ -13,8 +13,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <body className={`${inter.className} w-screen overflow-x-hidden bg-[#F4F1EE] text-[#404040]  `}>
-        <Header></Header>
-        {children}
+        <Header/>
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );
